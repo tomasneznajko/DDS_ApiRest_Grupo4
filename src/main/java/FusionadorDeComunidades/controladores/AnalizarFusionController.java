@@ -31,15 +31,23 @@ public class AnalizarFusionController implements Handler {
             path = "/api/analizar-fusion",
             methods = HttpMethod.POST,
             tags = {"Sugerencia de fusiones"},
-            requestBody = @OpenApiRequestBody(content = {@OpenApiContent(from = SugerenciaRequest.class)}),
+            pathParams = {@OpenApiParam(name = "userId", type = SugerenciaRequest.class, description = "The user ID")},
+            requestBody = @OpenApiRequestBody(
+                    content = {@OpenApiContent(from = SugerenciaRequest.class)}
+            ),
             responses = {
                     @OpenApiResponse(status = "201", content = @OpenApiContent(from = ApiResponse.class)),
                     @OpenApiResponse(status = "400", content = @OpenApiContent(from = ApiResponse.class)),
                     @OpenApiResponse(status = "500", content = @OpenApiContent(from = ApiResponse.class))
             }
     )
+
+
+
+
     @Override
-    public void handle(Context context) throws Exception {
+    public void handle(
+            Context context) throws Exception {
 
         ApiResponse respuesta = new ApiResponse();
         try{

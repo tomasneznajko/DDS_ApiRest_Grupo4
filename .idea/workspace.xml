@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f0cfdf-9ddb-412a-b184-4420eeeadf75" name="Changes" comment="" />
+    <list default="true" id="91f0cfdf-9ddb-412a-b184-4420eeeadf75" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/SugerenciaRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/SugerenciaRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/AnalizarFusionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/AnalizarFusionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/FusionarComunidadesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/FusionarComunidadesController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,23 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_directory_selection": "C:/Users/ivanm/OneDrive/Escritorio/DDS_ApiRest_Grupo4/src/test/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/ivanm/OneDrive/Escritorio/DDS_ApiRest_Grupo4/src/test/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ivanm\OneDrive\Escritorio\DDS_ApiRest_Grupo4\src\main\java\FusionadorDeComunidades\controladores" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ApiRest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FusionadorDeComunidades.ApiRest" />
@@ -90,7 +100,10 @@
       <option name="presentableId" value="Default" />
       <updated>1695947497568</updated>
       <workItem from="1695947499233" duration="738000" />
-      <workItem from="1695948258483" duration="4441000" />
+      <workItem from="1695948258483" duration="5895000" />
+      <workItem from="1696198949307" duration="706000" />
+      <workItem from="1696518880873" duration="2712000" />
+      <workItem from="1696552770568" duration="302000" />
     </task>
     <servers />
   </component>
