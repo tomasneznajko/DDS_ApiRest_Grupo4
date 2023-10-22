@@ -6,14 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="91f0cfdf-9ddb-412a-b184-4420eeeadf75" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/SugerenciaRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/SugerenciaRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/AnalizarFusionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/AnalizarFusionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/FusionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/FusionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/PropuestaAnterior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/PropuestaAnterior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/FusionarComunidadesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/FusionarComunidadesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +61,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="FusionadorDeComunidades.controladores" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ivanm\OneDrive\Escritorio\DDS_ApiRest_Grupo4\src\main\java\FusionadorDeComunidades\controladores" />
     </key>
@@ -103,7 +113,10 @@
       <workItem from="1695948258483" duration="5895000" />
       <workItem from="1696198949307" duration="706000" />
       <workItem from="1696518880873" duration="2712000" />
-      <workItem from="1696552770568" duration="302000" />
+      <workItem from="1696552770568" duration="426000" />
+      <workItem from="1697675653335" duration="1376000" />
+      <workItem from="1697750300563" duration="23000" />
+      <workItem from="1697924610965" duration="6254000" />
     </task>
     <servers />
   </component>

@@ -17,6 +17,11 @@ public class PropuestaAnterior {
     }
     public PropuestaAnterior(){}
 
+    public Boolean soyEquivalenteA(PropuestaAnterior propuestaAnterior){
+        return this.idComunidad == propuestaAnterior.getIdComunidad() &&
+                this.fecha.equals(propuestaAnterior.getFecha());
+    }
+
     @JsonIgnore
     public LocalDate getFechaComoLocalDate(){
         return LocalDate.parse(fecha);
