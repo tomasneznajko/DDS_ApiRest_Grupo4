@@ -2,7 +2,6 @@ package FusionadorDeComunidades;
 
 import FusionadorDeComunidades.controladores.AnalizarFusionController;
 import FusionadorDeComunidades.controladores.FusionarComunidadesController;
-//import ApiRest.serializadorMagico.LocalDateSerializer;
 import io.javalin.Javalin;
 import io.javalin.openapi.plugin.OpenApiConfiguration;
 import io.javalin.openapi.plugin.OpenApiPlugin;

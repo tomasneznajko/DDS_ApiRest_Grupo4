@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91f0cfdf-9ddb-412a-b184-4420eeeadf75" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/FusionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/FusionRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/PropuestaAnterior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/Entidades/PropuestaAnterior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/FusionarComunidadesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/controladores/FusionarComunidadesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/ApiRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FusionadorDeComunidades/ApiRest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,9 @@
       <workItem from="1696552770568" duration="426000" />
       <workItem from="1697675653335" duration="1376000" />
       <workItem from="1697750300563" duration="23000" />
-      <workItem from="1697924610965" duration="6254000" />
+      <workItem from="1697924610965" duration="13367000" />
+      <workItem from="1698122788245" duration="1092000" />
+      <workItem from="1698158341942" duration="608000" />
     </task>
     <servers />
   </component>

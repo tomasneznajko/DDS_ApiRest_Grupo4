@@ -37,7 +37,7 @@ public class FusionarComunidadesController implements Handler {
 
             comunidadFusionada.setEstablecimientos(fusionarListas(comunidad1.getEstablecimientos(), comunidad2.getEstablecimientos()));
             comunidadFusionada.setServicios(fusionarListas(comunidad1.getServicios(), comunidad2.getServicios()));
-            comunidadFusionada.setPropuestasAnteriores(fusionarListas(comunidad1.getPropuestasAnteriores(), comunidad2.getPropuestasAnteriores()));
+            /*comunidadFusionada.setPropuestasAnteriores(fusionarListas(comunidad1.getPropuestasAnteriores(), comunidad2.getPropuestasAnteriores()));*/
             comunidadFusionada.setGradoConfianza(comunidad1.getGradoConfianza());
             comunidadFusionada.setUsuarios(fusionarListas(comunidad1.getUsuarios(), comunidad2.getUsuarios()));
             comunidadFusionada.setIncidentes(fusionarListas(comunidad1.getIncidentes(), comunidad2.getIncidentes()));
@@ -56,7 +56,18 @@ public class FusionarComunidadesController implements Handler {
         context.json(respuesta);
     }
 
-    private <T> List<T> fusionarListas(List<T> lista1, List<T> lista2) {
+    private List<Long> fusionarListas(List<Long> lista1, List<Long> lista2) {
+        List<Long> listaFusionada = new ArrayList<>(lista1);
+        for (Long elemento : lista2) {
+            if (!lista1.contains(elemento)) {
+                listaFusionada.add(elemento);
+            }
+        }
+        return listaFusionada;
+    }
+
+
+/*    private <T> List<T> fusionarListas(List<T> lista1, List<T> lista2) {
         List<T> listaFusionada = new ArrayList<>(lista1);
         for (T elemento : lista2) {
             if (!contieneElemento(elemento, listaFusionada)) {
@@ -72,5 +83,5 @@ public class FusionarComunidadesController implements Handler {
         return elemento instanceof PropuestaAnterior?
                 listaFusionada.stream().anyMatch(elem->((PropuestaAnterior)elem).soyEquivalenteA((PropuestaAnterior)elemento)):
                 listaFusionada.contains(elemento);
-    }
+    }*/
 }
