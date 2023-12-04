@@ -6,12 +6,13 @@ import lombok.Setter;
 
 import java.time.LocalDate;
 
+
 @Getter @Setter
 public class PropuestaAnterior {
-    private long idComunidad;
+    private Long idComunidad;
     private String fecha;
 
-    public PropuestaAnterior(long id, String fecha){
+    public PropuestaAnterior(Long id, String fecha){
         this.idComunidad = id;
         this.fecha = fecha;
     }

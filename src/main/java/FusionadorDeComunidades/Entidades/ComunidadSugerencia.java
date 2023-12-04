@@ -3,9 +3,8 @@ package FusionadorDeComunidades.Entidades;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 import java.time.LocalDate;
+import java.util.List;
 
 @Setter @Getter
 public class ComunidadSugerencia {
